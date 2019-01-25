@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Clyde D'Souza</Authors>
+    <Company>Clyde D'Souza</Company>
+    <PackageProjectUrl>https://github.com/ClydeDz/demo-nuget/</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/ClydeDz/demo-nuget/blob/master/LICENSE</PackageLicenseUrl>
+    <Copyright>Copyright (c) 2019 Clyde D'Souza</Copyright>
+    <Description>Some description for Demo Nuget</Description>
+    <Product>Demo Nuget</Product>
+    <PackageIconUrl>https://via.placeholder.com/150</PackageIconUrl>
+    <RepositoryUrl>https://github.com/ClydeDz/demo-nuget/</RepositoryUrl>
+    <PackageTags>Nuget, Demo</PackageTags>
+    <PackageReleaseNotes>Sample release notes for demo nuget</PackageReleaseNotes>
+  </PropertyGroup>
+
+</Project>

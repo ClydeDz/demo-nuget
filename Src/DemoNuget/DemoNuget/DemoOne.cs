@@ -1,7 +1,7 @@
 ﻿// License
 // https://github.com/ClydeDz/demo-nuget/blob/master/LICENSE
 
-namespace DemoNuget
+namespace DemoNugetByClydeDSouza
 {
     public class DemoOne
     {

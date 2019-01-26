@@ -16,8 +16,8 @@
     <PackageId>DemoNugetByClydeDSouza</PackageId>
     <AssemblyVersion>1.0.0.6</AssemblyVersion>
     <FileVersion>1.0.0.6</FileVersion>
-    <AssemblyName>DemoNuget</AssemblyName>
-    <RootNamespace>DemoNuget</RootNamespace>
+    <AssemblyName>DemoNugetByClydeDSouza</AssemblyName>
+    <RootNamespace>DemoNugetByClydeDSouza</RootNamespace>
     <Version>1.0.6</Version>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <ApplicationIcon />

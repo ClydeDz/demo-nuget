@@ -1,4 +1,7 @@
-﻿namespace DemoNuget
+﻿// License
+// https://github.com/ClydeDz/demo-nuget/blob/master/LICENSE
+
+namespace DemoNuget
 {
     public class DemoOne
     {

@@ -13,6 +13,29 @@
     <RepositoryUrl>https://github.com/ClydeDz/demo-nuget/</RepositoryUrl>
     <PackageTags>Nuget, Demo</PackageTags>
     <PackageReleaseNotes>Sample release notes for demo nuget</PackageReleaseNotes>
+    <PackageId>DemoNugetByClydeDSouza</PackageId>
+    <AssemblyVersion>1.0.0.5</AssemblyVersion>
+    <FileVersion>1.0.0.5</FileVersion>
+    <AssemblyName>DemoNuget</AssemblyName>
+    <RootNamespace>DemoNuget</RootNamespace>
+    <Version>1.0.5</Version>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <ApplicationIcon />
+    <Win32Resource />
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="license.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="license\license.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
 
 </Project>

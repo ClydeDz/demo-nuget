@@ -25,11 +25,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="DemoNugetByClydeDSouza.nuspec" />
+    <None Remove="LICENSE.md" />
     <None Remove="license.txt" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="license\license.txt">
+    <Content Include="DemoNugetByClydeDSouza.nuspec">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="LICENSE.md">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

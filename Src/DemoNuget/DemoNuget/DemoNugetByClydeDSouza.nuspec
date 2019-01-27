@@ -8,7 +8,6 @@
     <owners>Clyde D'Souza</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
-    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
     <projectUrl>https://github.com/ClydeDz/demo-nuget/</projectUrl>
     <iconUrl>https://via.placeholder.com/64</iconUrl>
     <description>This package is used for demo and/or experimentation only. Please do not use this package, especially in production environments.</description>

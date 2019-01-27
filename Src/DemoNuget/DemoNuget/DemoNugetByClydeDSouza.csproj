@@ -5,7 +5,6 @@
     <Authors>Clyde D'Souza</Authors>
     <Company>Clyde D'Souza</Company>
     <PackageProjectUrl>https://github.com/ClydeDz/demo-nuget/</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/ClydeDz/demo-nuget/blob/master/LICENSE</PackageLicenseUrl>
     <Copyright>Copyright (c) 2019 Clyde D'Souza</Copyright>
     <Description>Some description for Demo Nuget</Description>
     <Product>Demo Nuget</Product>
@@ -22,6 +21,11 @@
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <ApplicationIcon />
     <Win32Resource />
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>bin\Release\netstandard2.0\lib\</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
@@ -43,4 +47,8 @@
     <Folder Include="Properties\" />
   </ItemGroup>
 
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="move /Y &quot;$(TargetDir)DemoNugetByClydeDSouza.nuspec&quot; &quot;$(ProjectDir)bin\Release\netstandard2.0\DemoNugetByClydeDSouza.nuspec&quot;&#xD;&#xA;move /Y &quot;$(TargetDir)License.md&quot; &quot;$(ProjectDir)bin\Release\netstandard2.0\License.md&quot;" />
+  </Target>
+  
 </Project>

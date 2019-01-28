@@ -4,20 +4,20 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>Clyde D'Souza</Authors>
     <Company>Clyde D'Souza</Company>
-    <PackageProjectUrl>https://github.com/ClydeDz/demo-nuget/</PackageProjectUrl>
+    <PackageProjectUrl></PackageProjectUrl>
     <Copyright>Copyright (c) 2019 Clyde D'Souza</Copyright>
-    <Description>Some description for Demo Nuget</Description>
-    <Product>Demo Nuget</Product>
-    <PackageIconUrl>https://via.placeholder.com/150</PackageIconUrl>
-    <RepositoryUrl>https://github.com/ClydeDz/demo-nuget/</RepositoryUrl>
-    <PackageTags>Nuget, Demo</PackageTags>
-    <PackageReleaseNotes>Sample release notes for demo nuget</PackageReleaseNotes>
+    <Description></Description>
+    <Product></Product>
+    <PackageIconUrl></PackageIconUrl>
+    <RepositoryUrl></RepositoryUrl>
+    <PackageTags></PackageTags>
+    <PackageReleaseNotes></PackageReleaseNotes>
     <PackageId>DemoNugetByClydeDSouza</PackageId>
-    <AssemblyVersion>1.0.0.6</AssemblyVersion>
-    <FileVersion>1.0.0.6</FileVersion>
+    <AssemblyVersion>1.0.8.0</AssemblyVersion>
+    <FileVersion>1.0.8.0</FileVersion>
     <AssemblyName>DemoNugetByClydeDSouza</AssemblyName>
     <RootNamespace>DemoNugetByClydeDSouza</RootNamespace>
-    <Version>1.0.6</Version>
+    <Version>1.0.8</Version>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <ApplicationIcon />
     <Win32Resource />
